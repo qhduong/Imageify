@@ -1,4 +1,4 @@
-Imageify
-========
+Imagify
+===============
 
-Adds text to any given image.
+Allows on-the-fly text annotation to images

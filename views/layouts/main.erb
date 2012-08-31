@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		
+		<title>Hark's Dashboard</title>
+		<link rel='stylesheet' href='stylesheets/main.css'>
+		<link rel='stylesheet' href='stylesheets/facebook.css'>
+		<link rel='stylesheet' href='stylesheets/twitter.css'>
+		<%= yield_content :scripts %>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="javascripts/jquery.jChartbeat.compiled.js"></script>
+		<script src="javascripts/widgets.js"></script>
+		<script src="javascripts/chartbeat.js"></script>
+		<script src="javascripts/helper.js"></script>
+		
+	</head>
+
+	<body>
+		<div id='main'>
+			<%= yield %>
+		</div>
+	</body>
+
+</html>
